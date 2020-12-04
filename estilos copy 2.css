@@ -58,6 +58,7 @@ header .logo img {
     vertical-align: top;
 }
 
+
 header nav {
     width: 60%;
     /*flex*/
@@ -147,6 +148,12 @@ footer {
 }
 
 @media screen and (max-widht: 600px) {
+    
+
+    portada {
+        width: 600px;
+        justify-content: center;
+    }
 
     footer {
         justify-content: center;
@@ -154,6 +161,11 @@ footer {
 }
 
 @media screen and (max-widht: 400px) {
+
+    portada {
+        width: 400px;
+        justify-content: center;
+    }
 
     header {
         width: 80%;
